@@ -227,7 +227,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:onlineclothing_app/data/repository/product_repo.dart';
 import 'package:onlineclothing_app/features/auth/screen/login.dart';
-import 'package:onlineclothing_app/presentation/screens/checkout_screen.dart';
+import 'package:onlineclothing_app/presentation/screens/cart_screen.dart';
 import 'package:onlineclothing_app/presentation/screens/products_screendetail.dart';
 import 'package:onlineclothing_app/presentation/screens/profile_screen.dart';
 import 'package:onlineclothing_app/presentation/view_model/cart_viewmodel.dart';
@@ -266,9 +266,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
-                      builder: (_) => const CheckoutScreenDemo(),
-                    ),
+                    MaterialPageRoute(builder: (_) => const CartScreen()),
                   );
                 },
               ),
