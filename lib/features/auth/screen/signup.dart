@@ -1,8 +1,8 @@
 // lib/presentation/screens/signup_screen.dart
 
+import 'package:TrendyWears/features/auth/screen/login.dart';
+import 'package:TrendyWears/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:onlineclothing_app/features/auth/screen/login.dart';
-import 'package:onlineclothing_app/presentation/screens/home_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -79,7 +79,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (_) => const HomeScreen()),
+          MaterialPageRoute(builder: (_) => HomeScreen()),
         );
       }
     } on AuthException catch (e) {
@@ -208,7 +208,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                   child: _isLoading
                       ? const CircularProgressIndicator(color: Colors.white)
-                      : const Text("Sign Up", style: TextStyle(fontSize: 18)),
+                      : const Text(
+                          "Sign Up",
+                          style: TextStyle(fontSize: 18, color: Colors.white),
+                        ),
                 ),
               ),
 

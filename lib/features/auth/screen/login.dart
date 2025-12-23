@@ -1,10 +1,11 @@
 // lib/presentation/screens/login_screen.dart
 
+import 'package:TrendyWears/features/auth/screen/forgottenpasswordscreen.dart';
+import 'package:TrendyWears/features/auth/screen/signup.dart';
+import 'package:TrendyWears/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:onlineclothing_app/features/auth/screen/forgottenpasswordscreen.dart';
-import 'package:onlineclothing_app/features/auth/screen/signup.dart';
-import 'package:onlineclothing_app/presentation/screens/home_screen.dart';
+
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -201,8 +202,11 @@ class _LoginScreenState extends State<LoginScreen> {
                       backgroundColor: Colors.deepPurple,
                     ),
                     child: _isLoading
-                        ? const CircularProgressIndicator(color: Colors.white)
-                        : const Text("Login", style: TextStyle(fontSize: 18)),
+                        ? CircularProgressIndicator(color: Colors.black)
+                        : const Text(
+                            "Login",
+                            style: TextStyle(fontSize: 18, color: Colors.white),
+                          ),
                   ),
                 ),
 

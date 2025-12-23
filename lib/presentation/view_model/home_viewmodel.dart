@@ -1,6 +1,6 @@
+import 'package:TrendyWears/data/models/products.dart';
+import 'package:TrendyWears/data/repository/product_repo.dart';
 import 'package:flutter/material.dart';
-import 'package:onlineclothing_app/data/models/products.dart';
-import 'package:onlineclothing_app/data/repository/product_repo.dart';
 
 class HomeViewModel extends ChangeNotifier {
   final ProductRepository _repository = ProductRepository();

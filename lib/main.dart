@@ -1,12 +1,13 @@
+import 'package:TrendyWears/features/auth/screen/login.dart';
+import 'package:TrendyWears/presentation/screens/home_screen.dart';
+import 'package:TrendyWears/presentation/view_model/cart_viewmodel.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:onlineclothing_app/features/auth/screen/login.dart';
-import 'package:onlineclothing_app/presentation/screens/home_screen.dart';
-import 'package:onlineclothing_app/presentation/view_model/cart_viewmodel.dart';
+
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:provider/provider.dart';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() async {

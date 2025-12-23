@@ -44,8 +44,8 @@
 //   });
 // }
 
+import 'package:TrendyWears/data/models/products.dart';
 import 'package:flutter/material.dart';
-import 'package:onlineclothing_app/data/models/products.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class CartItem {

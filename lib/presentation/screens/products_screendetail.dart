@@ -1,10 +1,10 @@
 // lib/presentation/screens/product_detail_screen.dart
 
+import 'package:TrendyWears/data/models/products.dart';
+import 'package:TrendyWears/presentation/view_model/cart_viewmodel.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:onlineclothing_app/data/models/products.dart';
-import 'package:onlineclothing_app/presentation/view_model/cart_viewmodel.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 

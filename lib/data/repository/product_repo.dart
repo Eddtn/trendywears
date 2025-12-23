@@ -1,4 +1,4 @@
-import 'package:onlineclothing_app/data/models/products.dart';
+import 'package:TrendyWears/data/models/products.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class ProductRepository {
