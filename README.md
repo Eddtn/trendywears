@@ -4,6 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
+![image alt](https://github.com/Eddtn/trendywears/blob/9ddfb864fdd9bdc34be81321ab40c621349d6c9c/product_details.png)
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
