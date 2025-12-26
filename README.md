@@ -1,18 +1,35 @@
-# onlineclothing_app
+# TrendyWear – Flutter E-Commerce App
 
-A new Flutter project.
 
-## Getting Started
 
-![image alt](https://github.com/Eddtn/trendywears/blob/9ddfb864fdd9bdc34be81321ab40c621349d6c9c/product_details.png)
+A complete e-commerce mobile app built with Flutter and Supabase. Features real-time cart, demo payment, order tracking, user profile, and more.
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- User authentication (email + Google Sign-In)
+- Product catalog with categories
+- Shopping cart with add/remove
+- Demo checkout (no real payment)
+- Order history & tracking
+- Profile with avatar upload, addresses
+- Responsive UI for Android & iOS
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠 Tech Stack
+- Flutter 3.24+
+- Supabase (Auth, Database, Storage)
+- Provider for state management
+- Cached Network Image
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 How to Run
+1. Clone: `git clone https://github.com/yourusername/trendy-wear-flutter`
+2. `flutter pub get`
+3. Set up Supabase (keys in .env)
+4. `flutter run`
+
+## 📌 Future Improvements
+- Real payment with Paystack
+- Push notifications
+- Wishlist
+- Reviews & ratings
+
